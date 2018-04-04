@@ -100,6 +100,7 @@ function Global:Resolve-NodeProperty {
     }
 
     if($result -or $NullAllowed) {
+        #Write-Output -NoEnumerate $result
         $result
     }
     else {

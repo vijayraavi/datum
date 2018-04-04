@@ -1,0 +1,12 @@
+{
+    "Configurations": [
+        "disks"
+    ],
+    "Disks":[
+      {
+        "Number": 0,
+        "DriveLetter": "C",
+        "FS": "NTFS"
+      }
+    ]
+  }

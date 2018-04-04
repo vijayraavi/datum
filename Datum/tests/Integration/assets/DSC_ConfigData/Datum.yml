@@ -80,7 +80,14 @@ lookup_options:
       tuple_keys:
           - name
           - version
-
+  Disks:
+    merge_hash: deep
+    merge_basetype_array: Sum
+    merge_hash_array: UniqueKeyValTuples
+    merge_options:
+      knockout_prefix: --
+      tuple_keys:
+        - Number
   #MergeTest1\MergeHash: first
   #configurations: Unique
 

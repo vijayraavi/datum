@@ -1,6 +1,15 @@
 Configurations:
   - Shared1
+  - Disks
 
 Shared1:
   DestinationPath: C:\MyRoleParam.txt
   Param1: This is the Role override!
+
+Disks:
+  - Number: 1
+    DriveLetter: D
+    FS: NTFS
+  - Number: 2
+    DriveLetter: E
+    FS: ReFS
